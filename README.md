@@ -8,13 +8,13 @@
 <p> 
   <li>convert the image to the grayscale.</li>
   <li>divide the image into tow parts: top half, bottom half</li>
-  <li>apply Gaussian blur to the top half because we don't need it</li>
+  <li>apply Gaussian blur to the top half to suppress unnecessary features</li>
 </p>
 <img width="507" height="295" alt="Image" src="https://github.com/user-attachments/assets/a58d2b08-154c-41bd-bba3-c8a1e5c30dfb" />
 
 # 3. Canny Edge Detection
 
-<p> I kept preprocessing the image untill get the best edges. </p>
+<p><li>I kept refining the preprocessing steps until I got the clearest edges for lane detection. This is the result.</li></p>
 <img width="506" height="297" alt="Image" src="https://github.com/user-attachments/assets/086f9ad3-12b5-4874-b233-f4eeb2fc9601" />
 
 # 4. Apply HoughLines
